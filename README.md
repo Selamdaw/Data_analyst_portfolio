@@ -21,7 +21,7 @@
 **Overview:** This analysis aims to support gym management and trainers in designing tailored fitness programs and optimizing training recommendations based on members’ unique profiles, using data-driven insights from 973 samples of gym data to create visualizations offering insights into how demographic factors impact fitness behaviors and progress.
 
 ## Data Sources
-**Data Sources:** Data was sourced from Kaggle sample dataset.
+**Sources:** Data was sourced from Kaggle sample dataset.
 
 ## Technologies Used
 **Technologies:** This project was developed using Excel for the creation of visualizations, Jupyter Notebooks for initial data processing, and SQL for data cleaning, managing and manipulating data.
