@@ -5,6 +5,7 @@
 
 ## Table of Contents
 - [Overview](#project-overview)
+- [Key Question](#questions)
 - [Data Sources](#data-sources)
 - [Technologies Used](#technologies-used)
 - [Methodology](#methodology)
@@ -17,8 +18,14 @@
 - [Attribution](#attribution)
 - [Contact](#contact)
 
-## Overview
+## Project Overview
 **Overview:** This analysis aims to support gym management and trainers in designing tailored fitness programs and optimizing training recommendations based on members’ unique profiles, using data-driven insights from 973 samples of gym data to create visualizations offering insights into how demographic factors impact fitness behaviors and progress.
+
+## Questions
+**Research Questions:**  
+- How do demographic factors (age, gender) relate to workout intensity and duration? 
+- What are typical heart rate patterns, and how do they correlate with calories burned? 
+- Can we identify trends in fitness progress over time based on experience levels?
 
 ## Data Sources
 **Sources:** Data was sourced from Kaggle sample dataset.
@@ -26,6 +33,7 @@
 ## Technologies Used
 **Technologies:** This project was developed using Excel for the creation of visualizations, Jupyter Notebooks for initial data processing, and SQL for data cleaning, managing and manipulating data.
 
+## Methodology
 ### Data Collection
 **Collection:** Data for the planets and moons was meticulously gathered from authoritative sources, ensuring accuracy and relevancy for the project's scope.
 
