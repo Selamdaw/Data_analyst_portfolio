@@ -18,6 +18,9 @@
 - [Attribution](#attribution)
 - [Contact](#contact)
 
+## Background
+The motivation for this project was to leverage gym exercise tracking data to create a series of visualizations that depict the factors that impact fitness progress and practices in an educational format. This project was designed to aid gym goers and fitness coaches with education and provide a clear visualization tool for understanding large dataset. Additionally, to enhance my skills and practice using large datasets, utilizing Excel and SQL to visualize and clean data. 
+
 ## Project Overview
 **Overview:** This analysis aims to support gym management and trainers in designing tailored fitness programs and optimizing training recommendations based on members’ unique profiles, using data-driven insights from 973 samples of gym data to create visualizations offering insights into how demographic factors impact fitness behaviors and progress.
 
@@ -46,7 +49,7 @@ Using Conditional Formatting on Excel to highlight extreme values revealed poten
 
 
 ### Data Analysis
-**Analysis:** Reviewing original dataset, it revealed several preliminary patterns. It showed that higher-intensity workouts, like HIIT and Cardio, are likely associated with increased Max_BPM and Avg_BPM values, as well as greater Calories_Burned per session compared to lower-intensity workouts, such as Yoga. BMI and Fat_Percentage also appear related, though this may vary with muscle mass, particularly among those with higher Experience_Level. <br> <br> Additionally, more experienced members tend to have higher Workout_Frequency (days/week) and possibly longer Session Duration. Age may influence Resting_BPM, with older individuals potentially showing higher resting heart rates. These initial observations point to likely correlations between workout type, frequency, and individual physical characteristics. <br> <br> 
+Reviewing original dataset, it revealed several preliminary patterns. It showed that higher-intensity workouts, like HIIT and Cardio, are likely associated with increased Max_BPM and Avg_BPM values, as well as greater Calories_Burned per session compared to lower-intensity workouts, such as Yoga. BMI and Fat_Percentage also appear related, though this may vary with muscle mass, particularly among those with higher Experience_Level. <br> <br> Additionally, more experienced members tend to have higher Workout_Frequency (days/week) and possibly longer Session Duration. Age may influence Resting_BPM, with older individuals potentially showing higher resting heart rates. These initial observations point to likely correlations between workout type, frequency, and individual physical characteristics. <br> <br> 
 
 **Statistics of Key Columns** <br>
 
@@ -68,14 +71,11 @@ Average Heart Rate (BPM): <br>
 - Max: 169 BPM
 - Standard Deviation: 14.35 BPM <br>
 
-**Analysis:** Workout Duration is quite consistent around 1.26 hours, with a low spread. Calories Burned shows more variability, suggesting some workouts are significantly more intensive.
-Heart Rate varies moderately, with most values clustered near the mean of 143 BPM.
-This overview provides a solid understanding of central tendencies and variability, which can inform decisions on workout design and intensity.
+**Analysis:** Workout Duration is quite consistent around 1.26 hours, with a low spread. Calories Burned shows more variability, suggesting some workouts are significantly more intensive. Heart Rate varies moderately, with most values clustered near the mean of 143 BPM. This overview provides a solid understanding of central tendencies and variability, which can inform decisions on workout design and intensity.
 
+### Data Analysis in SQL 
+Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender 
 
- 
-
-Analytical methods included time series analysis, comparative analysis, and categorical comparison, focusing on visual clarity and data integrity.
 
 ### Data Visualization
 **Visualization:** The project features a variety of visualization types such as 2D maps, bar charts, heat maps, and more to represent the complex data effectively.
