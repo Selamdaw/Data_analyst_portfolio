@@ -40,7 +40,7 @@ The motivation for this project was to leverage gym exercise tracking data to cr
 
 ## Methodology
 ### Data Collection
-**Collection:** Data from the gym members exercise sessions were collected from a kaggle dataset by Kala Khorasami for data scientists, health researchers, and fitness enthusiasts interested in studying exercise habits or analyzing the relationship between demographic and physiological data to use. 
+**Collection:** Data from the gym members exercise sessions were collected from a kaggle dataset by Kala Khorasami for data scientists, health researchers, and fitness enthusiasts interested in studying exercise habits or analyzing the relationship between demographic and physiological data. 
 
 ### Data Cleaning
 The 'gym_members_exercise_tracking.csv' data underwent a rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualization tools. <br>
