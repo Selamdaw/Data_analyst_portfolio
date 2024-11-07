@@ -75,11 +75,7 @@ Average Heart Rate (BPM): <br>
 
 ### Data Analysis in SQL 
 Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender <br>
-Use data from Query1 to Group by demographic categories to analyze workout habits. This query helps to observe any patterns in workout duration and calories burned by gender.
-
-This query groups data by gender and calculates the average workout_duration and calories_burned for each gender. This helps to identify any differences in workout habits between males and females. Similar to the pivot table but using sql instead.
-
-
+Use data to Group by demographic categories to analyze workout habits. This query helped to observe any patterns in workout duration and calories burned by gender. Looking at Query1_demographics_table.csv, this query calculated the average session_duration and calories_burned for each gender. This helped to identify any differences in workout habits between males and females. Similar to the pivot table but using sql instead.
 
 ### Data Visualization
 **Visualization:** The project features a variety of visualization types such as 2D maps, bar charts, heat maps, and more to represent the complex data effectively.
