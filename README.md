@@ -24,7 +24,7 @@ The motivation for this project was to leverage gym exercise tracking data to cr
 ## Project Overview
 **Overview:** This analysis aims to support gym management and trainers in designing tailored fitness programs and optimizing training recommendations based on members’ unique profiles, using data-driven insights from 973 samples of gym data to create visualizations offering insights into how demographic factors impact fitness behaviors and progress.
 
-## Questions
+## Key Questions
 **Research Questions:**  
 - How do demographic factors (age, gender) relate to workout intensity and duration? 
 - What are typical heart rate patterns, and how do they correlate with calories burned? 
@@ -74,8 +74,13 @@ Average Heart Rate (BPM): <br>
 **Analysis:** Workout Duration is quite consistent around 1.26 hours, with a low spread. Calories Burned shows more variability, suggesting some workouts are significantly more intensive. Heart Rate varies moderately, with most values clustered near the mean of 143 BPM. This overview provides a solid understanding of central tendencies and variability, which can inform decisions on workout design and intensity.
 
 ### Data Analysis in SQL 
-Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender <br>
-Use data to Group by demographic categories to analyze workout habits. This query helped to observe any patterns in workout duration and calories burned by gender. Looking at Query1_demographics_table.csv, this query calculated the average session_duration and calories_burned for each gender. This helped to identify any differences in workout habits between males and females. Similar to the pivot table but using sql instead.
+**Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender** <br>
+- Used SQL to group by demographic categories to analyze workout habits. This query helped to observe any patterns in workout duration and calories burned by gender. Looking at Query1_demographics_table.csv, this query calculated the average session_duration and calories_burned for each gender. This helped to identify any differences in workout habits between males and females. Similar to the pivot table but using sql instead. <br>
+**Query 2: Exercise Intensity by Experience Level** <br>
+- This query helped uncover trends in how more experienced members differ in workout intensity. It grouped data by experience_level (e.g., 1, 2, 3) and calculates the average heart_rate and calories_burned for each level. As shown in helps to see if more experienced members tend to work out with higher intensity (higher heart rate) and burn more calories.
+
+
+
 
 ### Data Visualization
 **Visualization:** The project features a variety of visualization types such as 2D maps, bar charts, heat maps, and more to represent the complex data effectively.
