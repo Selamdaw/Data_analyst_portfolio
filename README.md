@@ -90,13 +90,17 @@ Average Heart Rate (BPM): <br>
 ## Findings
 **Findings:** The key data findings provide insights into fitness trends segmented by gender, experience level, and age. 
 
-The gender data shows that males and females have comparable session durations, but males burn slightly more calories on average per session​(Query1_demographics_visual). The experience level data reveals that as fitness experience increases, both the average heart rate and calories burned rise, indicating that experienced individuals at fitness push themselves harder, achieving greater calorie burn ​(Query2_experience_level). The age trends indicate that workout duration remains consistent across age groups, while calories burned peaks in the 26-35 range and slightly decreases with age, indicating peak calorie expenditure in early adulthood, which gradually declines with age (Query4_age_and_fitness_).
+The gender data shows that males and females have comparable session durations, but males burn slightly more calories on average per session​(Query1_demographics_visualisation). The experience level data reveals that as fitness experience increases, both the average heart rate and calories burned rise, indicating that experienced individuals push themselves harder, achieving greater calorie burn ​(Query2_experience_level). 
+
+The increase in both average heart rate and calorie burn implies that more experienced individuals engage in higher-intensity workouts, which may indicate greater fitness motivation or tolerance​(Query2_experience_level). Meanwhile, gender differences in calorie burned might relate to physiological factors like muscle mass, which affects calorie burn rate, even if session duration is similar between genders
+
+The age trends indicate that workout duration remains consistent across age groups, while calories burned peaks in the 26-35 range and slightly decreases with age, indicating peak calories burned in early adulthood, which gradually declines with age (Query4_age_and_fitness_trends.pdf).
 
 ## Conclusion
-**Conclusion:** The Solar System Model project successfully leverages advanced data visualization techniques to illustrate the intricate relationships and physical characteristics of celestial bodies, promoting greater public engagement and educational opportunities in astronomy.
+**Conclusion:** successfully leverages advanced data visualization techniques to illustrate the intricate relationships between age, gender, and experience level in fitness performance. Findings indicate peak calorie expenditure in early adulthood, which gradually declines with age, while more experienced members achieve higher calorie burns through increased workout intensity. These insights reveal patterns that can inform tailored fitness strategies for different demographics, enhancing member engagement and health outcomes.
 
 ## Attribution
-**Attribution:** Credits to NASA's National Space Science Data Center, Astropy library, and all data providers who made this project possible.
+**Attribution:** Credits to Kala Khorasami for the Kaggle sample dataset.
 
 ## Contact
 
@@ -105,8 +109,7 @@ The gender data shows that males and females have comparable session durations, 
 
 For any questions, comments, or collaborations, feel free to reach out.
 
-- **Contact**: [Contact Richard](https://eclipseanalytics.bss.design/)
-- **Website**: [Visit Richard's Website](https://eclipseanalytics.bss.design/)
-- **GitHub**: [Visit Richard's GitHub Portfolio](https://github.com/EclipseAnalytics/Data-Analyst-Portfolio)
+- **Contact**: [Contact Selam ](selamdawit02@gmail.com)
+- **GitHub**: [Visit Selam's GitHub Portfolio](https://github.com/Selamdaw/Data_analyst_portfolio)
 
 </details>
