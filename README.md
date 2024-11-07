@@ -5,7 +5,7 @@
 
 ## Table of Contents
 - [Background](#background)
-- [Overview](#project-overview)
+- [Project Overview](#project-overview)
 - [Key Question](#questions)
 - [Data Sources](#data-sources)
 - [Technologies Used](#technologies-used)
