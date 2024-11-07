@@ -4,6 +4,7 @@
 **Description:** This project analyzes gym members' exercise patterns, physical attributes, and fitness metrics through SQL-based queries and Excel visualizations to uncover demographic trends, workout intensity, and fitness progression. Using interactive charts, providing a comprehensive view of member behaviors, health trends, and correlations between metrics like heart rate, workout duration, and calories burned.
 
 ## Table of Contents
+- [Background](#background)
 - [Overview](#project-overview)
 - [Key Question](#questions)
 - [Data Sources](#data-sources)
@@ -12,6 +13,7 @@
   - [Data Collection](#data-collection)
   - [Data Cleaning](#data-cleaning)
   - [Data Analysis](#data-analysis)
+  - [Data Analysis in SQL](#data-analysis-sql)
   - [Data Visualization](#data-visualization)
 - [Findings](#findings)
 - [Conclusion](#conclusion)
@@ -46,7 +48,6 @@ The 'gym_members_exercise_tracking.csv' data underwent a rigorous cleaning proce
 Furthermore using SQL based queries to clean the data involved identifying nulls, ensuring that each entry is unique by identifying and removing the duplicates, standardizing data formats, correcting misalignments, and converting units where necessary. <br>
 
 Using Conditional Formatting on Excel to highlight extreme values revealed potential outliers in both Calories_Burned and Session_Duration (hours). In the Calories_Burned distribution, there are several points that could represent exceptionally high-calorie burns, possibly from unusually intense or prolonged workouts. Similarly, Session_Duration (hours) shows a few high values that deviate from the main grouping, suggesting some users may have unusually long exercise sessions. These outliers could significantly impact analysis by skewing averages or correlations, so further investigation or handling (e.g., removal or adjustment) may be warranted. <br>
-
 
 ### Data Analysis
 Reviewing original dataset, it revealed several preliminary patterns. It showed that higher-intensity workouts, like HIIT and Cardio, are likely associated with increased Max_BPM and Avg_BPM values, as well as greater Calories_Burned per session compared to lower-intensity workouts, such as Yoga. BMI and Fat_Percentage also appear related, though this may vary with muscle mass, particularly among those with higher Experience_Level. <br> <br> Additionally, more experienced members tend to have higher Workout_Frequency (days/week) and possibly longer Session Duration. Age may influence Resting_BPM, with older individuals potentially showing higher resting heart rates. These initial observations point to likely correlations between workout type, frequency, and individual physical characteristics. <br> <br> 
@@ -91,7 +92,7 @@ Average Heart Rate (BPM): <br>
 
 The gender data shows that males and females have comparable session durations, but males burn slightly more calories on average per session​(Query1_demographics_visual). The experience level data reveals that as fitness experience increases, both the average heart rate and calories burned rise, indicating that experienced individuals at fitness push themselves harder, achieving greater calorie burn ​(Query2_experience_level). The age trends indicate that workout duration remains consistent across age groups, while calories burned peaks in the 26-35 range and slightly decreases with age, suggesting optimal calorie expenditure in early adulthood, which tapers with age​ (Query4_age_and_fitness_…).
 
-the dynamic nature of the solar system, showing variations in planetary rotations, orbits, and environmental conditions that provide a deeper understanding of celestial mechanics.
+
 
 ## Conclusion
 **Conclusion:** The Solar System Model project successfully leverages advanced data visualization techniques to illustrate the intricate relationships and physical characteristics of celestial bodies, promoting greater public engagement and educational opportunities in astronomy.
