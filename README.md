@@ -28,7 +28,7 @@
 - Can we identify trends in fitness progress over time based on experience levels?
 
 ## Data Sources
-**Sources:** Data was sourced from Kaggle sample dataset.
+**Sources:** Data was sourced from Kaggle sample dataset saved as 'gym_members_exercise_tracking.csv' in the dataset folder.
 
 ## Technologies Used
 **Technologies:** This project was developed using Excel for the creation of visualizations, Jupyter Notebooks for initial data processing, and SQL for data cleaning, managing and manipulating data.
@@ -38,7 +38,7 @@
 **Collection:** Data from the gym members exercise sessions were collected from a kaggle dataset by Kala Khorasami for data scientists, health researchers, and fitness enthusiasts interested in studying exercise habits or analyzing the relationship between demographic and physiological data to use. 
 
 ### Data Cleaning
-The data underwent rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualization tools. <br>
+The 'gym_members_exercise_tracking.csv' data underwent a rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualization tools. <br>
 <br>**Cleaning:** To clean and preprocess the data, it involved removing duplicates. After selecting all columns to check if duplicates could exist across any of them, the output message confirmed there were no duplicates found. <br> <br> Next, the data was processed for having any missing values. After applying Conditional Formatting, highlighting Cell Rules and adding a filter on Excel to highlight any blanks, it found that were no missing values found on this dataset. <br> <br> Using Conditional Formatting to highlight extreme values it revealed potential outliers in both Calories_Burned and Session_Duration (hours). In the Calories_Burned distribution, there are several points that could represent exceptionally high-calorie burns, possibly from unusually intense or prolonged workouts. Similarly, Session_Duration (hours) shows a few high values that deviate from the main grouping, suggesting some users may have unusually long exercise sessions. These outliers could significantly impact analysis by skewing averages or correlations, so further investigation or handling (e.g., removal or adjustment) may be warranted.
 
 
