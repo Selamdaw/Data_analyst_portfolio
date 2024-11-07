@@ -51,7 +51,7 @@ Using Conditional Formatting on Excel to highlight extreme values revealed poten
 ### Data Analysis
 Reviewing original dataset, it revealed several preliminary patterns. It showed that higher-intensity workouts, like HIIT and Cardio, are likely associated with increased Max_BPM and Avg_BPM values, as well as greater Calories_Burned per session compared to lower-intensity workouts, such as Yoga. BMI and Fat_Percentage also appear related, though this may vary with muscle mass, particularly among those with higher Experience_Level. <br> <br> Additionally, more experienced members tend to have higher Workout_Frequency (days/week) and possibly longer Session Duration. Age may influence Resting_BPM, with older individuals potentially showing higher resting heart rates. These initial observations point to likely correlations between workout type, frequency, and individual physical characteristics. <br> <br> 
 
-**Statistics of Key Columns** <br>
+**Key Columns** <br>
 
 Session Duration (hours):<br> 
 - Mean: 1.26 hours
@@ -74,7 +74,11 @@ Average Heart Rate (BPM): <br>
 **Analysis:** Workout Duration is quite consistent around 1.26 hours, with a low spread. Calories Burned shows more variability, suggesting some workouts are significantly more intensive. Heart Rate varies moderately, with most values clustered near the mean of 143 BPM. This overview provides a solid understanding of central tendencies and variability, which can inform decisions on workout design and intensity.
 
 ### Data Analysis in SQL 
-Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender 
+Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender <br>
+Use data from Query1 to Group by demographic categories to analyze workout habits. This query helps to observe any patterns in workout duration and calories burned by gender.
+
+This query groups data by gender and calculates the average workout_duration and calories_burned for each gender. This helps to identify any differences in workout habits between males and females. Similar to the pivot table but using sql instead.
+
 
 
 ### Data Visualization
