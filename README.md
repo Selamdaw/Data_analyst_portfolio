@@ -76,21 +76,20 @@ Average Heart Rate (BPM): <br>
 ### Data Analysis in SQL 
 **Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender** <br>
 - Used SQL to group by demographic categories to analyze workout habits. This query helped to observe any patterns in workout duration and calories burned by gender. Looking at Query1_demographics_table.csv, this query calculated the average session_duration and calories_burned for each gender. This helped to identify any differences in workout habits between males and females. Similar to the pivot table but using sql instead. <br>
+
 **Query 2: Exercise Intensity by Experience Level** <br>
-- This query helped uncover trends in how more experienced members differ in workout intensity. It grouped data by experience_level (e.g., 1, 2, 3) and calculates the average heart_rate and calories_burned for each level. As shown in Query2_experience_level.csv it helped to see if more experienced members tend to work out with higher intensity (higher heart rate) and burn more calories. <br>
-**Query 4: Age and Fitness Trends - Analyze Average Workout and Calories by Age Range** <br>
+- This query helped uncover trends in how more experienced members differ in workout intensity. It grouped data by experience_level (e.g., 1, 2, 3) and calculates the average heart_rate and calories_burned for each level. As shown in 'Query2_experience_level.csv' it helped to see if more experienced members tend to work out with higher intensity (higher heart rate) and burn more calories. <br>
+
+**Query 3: Age and Fitness Trends - Analyze Average Workout and Calories by Age Range** <br>
 - Utilized SQL to examine how fitness metrics vary across age ranges. This query created age ranges (18-25, 26-35, etc.) and calculated the average workout_duration and calories_burned for each range. This revealed how workout habits and calorie expenditure changed across different age groups.
 
-
-
-
-
-
 ### Data Visualization
-**Visualization:** The project features a variety of visualization types such as 2D maps, bar charts, heat maps, and more to represent the complex data effectively.
+**Visualization:** The project featured a variety of visualization types such as bar charts, line charts, combination charts and more to represent the complex data effectively. These visualisations of the SQL-based queries are found in the 'Visualisations' folder. 
 
 ## Findings
-**Findings:** Key findings highlight the dynamic nature of the solar system, showing variations in planetary rotations, orbits, and environmental conditions that provide a deeper understanding of celestial mechanics.
+**Findings:** Key findings highlight 
+
+the dynamic nature of the solar system, showing variations in planetary rotations, orbits, and environmental conditions that provide a deeper understanding of celestial mechanics.
 
 ## Conclusion
 **Conclusion:** The Solar System Model project successfully leverages advanced data visualization techniques to illustrate the intricate relationships and physical characteristics of celestial bodies, promoting greater public engagement and educational opportunities in astronomy.
