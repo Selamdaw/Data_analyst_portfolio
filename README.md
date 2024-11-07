@@ -89,7 +89,7 @@ Average Heart Rate (BPM): <br>
 ## Findings
 **Findings:** The key data findings provide insights into fitness trends segmented by gender, experience level, and age. 
 
-Firstly, gender data shows that males and females have comparable session durations, but males burn slightly more calories on average per session​(Query1_demographics_visual). Experience level data reveals that as fitness experience increases, both the average heart rate and calories burned rise, indicating that seasoned individuals push themselves harder, achieving greater calorie burn​(Query2_experience_level). Age trends indicate that workout duration remains consistent across age groups, while calories burned peaks in the 26-35 range and slightly decreases with age, suggesting optimal calorie expenditure in early adulthood, which tapers with age​(Query4_age_and_fitness_…).
+The gender data shows that males and females have comparable session durations, but males burn slightly more calories on average per session​(Query1_demographics_visual). The experience level data reveals that as fitness experience increases, both the average heart rate and calories burned rise, indicating that experienced individuals at fitness push themselves harder, achieving greater calorie burn ​(Query2_experience_level). The age trends indicate that workout duration remains consistent across age groups, while calories burned peaks in the 26-35 range and slightly decreases with age, suggesting optimal calorie expenditure in early adulthood, which tapers with age​ (Query4_age_and_fitness_…).
 
 the dynamic nature of the solar system, showing variations in planetary rotations, orbits, and environmental conditions that provide a deeper understanding of celestial mechanics.
 
