@@ -39,14 +39,37 @@
 
 ### Data Cleaning
 The 'gym_members_exercise_tracking.csv' data underwent a rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualization tools. <br>
-<br>**Cleaning:** To clean and preprocess the data, it involved removing duplicates. After selecting all columns to check if duplicates could exist across any of them, the output message confirmed there were no duplicates found. Next, the data was processed for having any missing values. After applying Conditional Formatting, highlighting Cell Rules and adding a filter on Excel to highlight any blanks, it found that were no missing values found on this dataset. <br> <br> Using Conditional Formatting to highlight extreme values it revealed potential outliers in both Calories_Burned and Session_Duration (hours). In the Calories_Burned distribution, there are several points that could represent exceptionally high-calorie burns, possibly from unusually intense or prolonged workouts. Similarly, Session_Duration (hours) shows a few high values that deviate from the main grouping, suggesting some users may have unusually long exercise sessions. These outliers could significantly impact analysis by skewing averages or correlations, so further investigation or handling (e.g., removal or adjustment) may be warranted.
+<br>**Cleaning:** To clean and preprocess the data, it involved removing duplicates. After selecting all columns to check if duplicates could exist across any of them, the output message confirmed there were no duplicates found. Next, the data was processed for having any missing values. After applying Conditional Formatting, highlighting Cell Rules and adding a filter on Excel to highlight any blanks, it found that were no missing values found on this dataset. <br> <br> Using Conditional Formatting to highlight extreme values it revealed potential outliers in both Calories_Burned and Session_Duration (hours). In the Calories_Burned distribution, there are several points that could represent exceptionally high-calorie burns, possibly from unusually intense or prolonged workouts. Similarly, Session_Duration (hours) shows a few high values that deviate from the main grouping, suggesting some users may have unusually long exercise sessions. These outliers could significantly impact analysis by skewing averages or correlations, so further investigation or handling (e.g., removal or adjustment) may be warranted. <br>
+In addition, using SQL to clean and preprocess the Gym Members Exercise Data to ensure this further it involved identifying nulls, ensuring each entry is unique by identifying and removing the duplicates.
 
 ### Data Analysis
 **Analysis:** Reviewing original dataset, it revealed several preliminary patterns. It showed that higher-intensity workouts, like HIIT and Cardio, are likely associated with increased Max_BPM and Avg_BPM values, as well as greater Calories_Burned per session compared to lower-intensity workouts, such as Yoga. BMI and Fat_Percentage also appear related, though this may vary with muscle mass, particularly among those with higher Experience_Level. <br> <br> Additionally, more experienced members tend to have higher Workout_Frequency (days/week) and possibly longer Session Duration. Age may influence Resting_BPM, with older individuals potentially showing higher resting heart rates. These initial observations point to likely correlations between workout type, frequency, and individual physical characteristics. <br> <br> 
-**Statistics of Key Columns** <br> <br> 
-**Session Duration (hours):** <br> 
+
+**Statistics of Key Columns** <br>
+
+Session Duration (hours):<br> 
 - Mean: 1.26 hours
--   
+- Median: 1.26
+- Max: 2.0 hours
+- Standard deviation: 0.36 <br>
+
+Calories Burned: <br>
+- Mean: 905.42 calories
+- Median: 893.0 calories
+- Max: 1783 calories
+- Standard Deviation: 272.64 calories <br>
+
+Average Heart Rate (BPM): <br>
+- Mean: 143.77 BPM
+- Median: 143.0 BPM
+- Max: 169 BPM
+- Standard Deviation: 14.35 BPM <br>
+
+**Analysis:** Workout Duration is quite consistent around 1.26 hours, with a low spread. Calories Burned shows more variability, suggesting some workouts are significantly more intensive.
+Heart Rate varies moderately, with most values clustered near the mean of 143 BPM.
+This overview provides a solid understanding of central tendencies and variability, which can inform decisions on workout design and intensity.
+
+
  
 
 Analytical methods included time series analysis, comparative analysis, and categorical comparison, focusing on visual clarity and data integrity.
