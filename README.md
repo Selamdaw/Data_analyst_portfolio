@@ -21,10 +21,10 @@
 - [Contact](#contact)
 
 ## Background
-The motivation for this project was to leverage gym exercise tracking data to create a series of visualizations that depict the factors that impact fitness progress and practices in an educational format. This project was designed to aid gym goers and fitness coaches with education and provide a clear visualization tool for understanding large dataset. Additionally, to enhance my skills and practice using large datasets, utilizing Excel and SQL to visualize and clean data. 
+The motivation for this project was to leverage gym exercise tracking data to create a series of visualizations that depict the factors that impact fitness progress and practices in an educational format. This project was designed to aid gym goers and fitness coaches with education and provide a clear visualization tool for a large dataset. Additionally, to enhance my skills and practice using large datasets, utilizing Excel and SQL to visualize and clean data. 
 
 ## Project Overview
-**Overview:** This analysis aims to support gym management and trainers in designing tailored fitness programs and optimizing training recommendations based on members’ unique profiles, using data-driven insights from 973 samples of gym data to create visualizations offering insights into how demographic factors impact fitness behaviors and progress.
+**Overview:** This analysis aims to support gym management and trainers in designing tailored fitness programs and optimizing training recommendations based on members’ unique profiles, using data-driven insights from 973 samples to create visualizations that offer insights into how demographic factors impact fitness behaviors and progress.
 
 ## Key Questions
 **Research Questions:**  
@@ -33,24 +33,24 @@ The motivation for this project was to leverage gym exercise tracking data to cr
 - Can we identify trends in fitness progress over time based on experience levels?
 
 ## Data Sources
-**Sources:** Data was sourced from Kaggle sample dataset saved as 'gym_members_exercise_tracking.csv' in the dataset folder.
+**Sources:** Data was sourced from Kaggle sample dataset saved as 'gym_members_exercise_tracking.csv' containing 973 samples of gym data in the dataset folder.
 
 ## Technologies Used
-**Technologies:** This project was developed using Excel for the creation of visualizations, Jupyter Notebooks for initial data processing, and SQL for data cleaning, managing and manipulating data.
+**Technologies:** This project was developed using Excel for the creation of visualizations, Excel for initial data processing, and SQL for data cleaning, managing and manipulating data.
 
 ## Methodology
 ### Data Collection
-**Collection:** Data from the gym members exercise sessions were collected from a kaggle dataset by Kala Khorasami for data scientists, health researchers, and fitness enthusiasts interested in studying exercise habits or analyzing the relationship between demographic and physiological data. 
+**Collection:** Data from the gym members exercise sessions were collected from a Kaggle dataset by Kala Khorasami for data scientists, health researchers, and fitness enthusiasts interested in studying exercise habits or analyzing the relationship between demographic and physiological data. 
 
 ### Data Cleaning
-The 'gym_members_exercise_tracking.csv' data underwent a rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualization tools. <br>
+The 'gym_members_exercise_tracking.csv' data underwent a rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualisation tools. <br>
 <br>**Cleaning:** To clean and preprocess the data, it involved removing duplicates. After selecting all columns to check if duplicates could exist across any of them, the output message confirmed there were no duplicates found. Next, the data was processed for having any missing values. After applying Conditional Formatting, highlighting Cell Rules and adding a filter on Excel to highlight any blanks, it found that were no missing values found on this dataset. <br> <br>
 Furthermore using SQL based queries to clean the data involved identifying nulls, ensuring that each entry is unique by identifying and removing the duplicates, standardizing data formats, correcting misalignments, and converting units where necessary. <br>
 
-Using Conditional Formatting on Excel to highlight extreme values revealed potential outliers in both Calories_Burned and Session_Duration (hours). In the Calories_Burned distribution, there are several points that could represent exceptionally high-calorie burns, possibly from unusually intense or prolonged workouts. Similarly, Session_Duration (hours) shows a few high values that deviate from the main grouping, suggesting some users may have unusually long exercise sessions. These outliers could significantly impact analysis by skewing averages or correlations, so further investigation or handling (e.g., removal or adjustment) may be warranted. <br>
+Using Conditional formatting on Excel to highlight extreme values revealed potential outliers in both Calories_Burned and Session_Duration (hours). In the Calories_Burned distribution, there are several points that could represent exceptionally high-calorie burns, possibly from unusually intense or prolonged workouts. Similarly, Session_Duration (hours) shows a few high values that deviate from the main grouping, that suggests some users may have unusually long exercise sessions. These outliers could significantly impact analysis by skewing averages or correlation (e.g., removal or adjustment). <br>
 
 ### Data Analysis
-Reviewing original dataset, it revealed several preliminary patterns. It showed that higher-intensity workouts, like HIIT and Cardio, are likely associated with increased Max_BPM and Avg_BPM values, as well as greater Calories_Burned per session compared to lower-intensity workouts, such as Yoga. BMI and Fat_Percentage also appear related, though this may vary with muscle mass, particularly among those with higher Experience_Level. <br> <br> Additionally, more experienced members tend to have higher Workout_Frequency (days/week) and possibly longer Session Duration. Age may influence Resting_BPM, with older individuals potentially showing higher resting heart rates. These initial observations point to likely correlations between workout type, frequency, and individual physical characteristics. <br> <br> 
+When analysing the original dataset, it revealed several preliminary patterns. It showed that higher-intensity workouts, like HIIT and Cardio, are likely associated with increased Max_BPM and Avg_BPM values, as well as greater Calories_Burned per session compared to lower-intensity workouts, such as Yoga. BMI and Fat_Percentage also appear related, though this may vary with muscle mass, particularly among those with higher Experience_Level. <br> <br> Additionally, more experienced members tend to have higher Workout_Frequency (days/week) and possibly longer Session Duration. Age may influence Resting_BPM, with older individuals potentially showing higher resting heart rates. These initial observations point to likely correlations between workout type, frequency, and individual physical characteristics. <br> <br> 
 
 **Key Columns** <br>
 
@@ -72,7 +72,7 @@ Average Heart Rate (BPM): <br>
 - Max: 169 BPM
 - Standard Deviation: 14.35 BPM <br>
 
-**Analysis:** Workout Duration is quite consistent around 1.26 hours, with a low spread. Calories Burned shows more variability, suggesting some workouts are significantly more intensive. Heart Rate varies moderately, with most values clustered near the mean of 143 BPM. This overview provides a solid understanding of central tendencies and variability, which can inform decisions on workout design and intensity.
+**Analysis:** Session Duration is quite consistent around 1.26 hours, with minimal variation. Calories Burned shows more variability, suggesting some workouts are significantly more intensive. Heart Rate varies moderately, with most values clustered near the mean of 143 BPM. This overview provides a solid understanding of central tendencies and variability, which can inform decisions on workout design and intensity.
 
 ### Data Analysis in SQL 
 **Query 1: Demographic Analysis - Average Workout Duration and Calories Burned by Gender** <br>
@@ -88,11 +88,11 @@ Average Heart Rate (BPM): <br>
 **Visualization:** The project featured a variety of visualization types such as bar charts, line charts, combination charts and more to represent the complex data effectively. These visualisations of the SQL-based queries are found in the 'Visualisations' folder. 
 
 ## Findings
-**Findings:** The key data findings provide insights into fitness trends segmented by gender, experience level, and age. 
+**Findings:** The key data findings offer insights into fitness trends across gender, experience level, and age segments
 
 The gender data shows that males and females have comparable session durations, but males burn slightly more calories on average per session​(Query1_demographics_visualisation). The experience level data reveals that as fitness experience increases, both the average heart rate and calories burned rise, indicating that experienced individuals push themselves harder, achieving greater calorie burn ​(Query2_experience_level). 
 
-The increase in both average heart rate and calorie burn implies that more experienced individuals engage in higher-intensity workouts, which may indicate greater fitness motivation or tolerance​(Query2_experience_level). Meanwhile, gender differences in calorie burned might relate to physiological factors like muscle mass, which affects calorie burn rate, even if session duration is similar between genders
+The increase in both average heart rate and calorie burn implies that more experienced individuals engage in higher-intensity workouts, which may indicate greater fitness motivation or tolerance​(Query2_experience_level). Meanwhile, gender differences in calorie burned might relate to physiological factors like muscle mass, which affects calorie burn rate, even if session duration is similar between genders.
 
 The age trends indicate that workout duration remains consistent across age groups, while calories burned peaks in the 26-35 range and slightly decreases with age, indicating peak calories burned in early adulthood, which gradually declines with age (Query4_age_and_fitness_trends.pdf).
 
