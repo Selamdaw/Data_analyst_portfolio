@@ -35,10 +35,11 @@
 
 ## Methodology
 ### Data Collection
-**Collection:** Data for the planets and moons was meticulously gathered from authoritative sources, ensuring accuracy and relevancy for the project's scope.
+**Collection:** Data from the gym members exercise sessions were collected from a kaggle dataset by Kala Khorasami for data scientists, health researchers, and fitness enthusiasts interested in studying exercise habits or analyzing the relationship between demographic and physiological data to use. 
 
 ### Data Cleaning
-**Cleaning:** The data underwent rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualization tools.
+**Cleaning:** The data underwent rigorous cleaning processes, including unit conversions, alignment corrections, and formatting to ensure compatibility with visualization tools. To clean and preprocess the data, it involved removing duplicates. After selecting all columns to check if duplicates could exist across any of them, the output message confirmed there were no duplicates found. Next 
+
 
 ### Data Analysis
 **Analysis:** Analytical methods included time series analysis, comparative analysis, and categorical comparison, focusing on visual clarity and data integrity.
