@@ -1,7 +1,7 @@
 # Gym Members Exercise Tracking Project
 
 ## Description
-**Description:** This project analyzes gym members' exercise patterns, physical attributes, and fitness metrics through SQL-based queries and Excel visualizations to uncover demographic trends, workout intensity, and fitness progression. Using interactive charts, providing a comprehensive view of member behaviors, health trends, and correlations between metrics like heart rate, workout duration, and calories burned.
+**Description:** This project analyzes gym members' exercise patterns, physical attributes, and fitness metrics through SQL-based queries and Excel visualizations to uncover demographic trends, workout intensity, and fitness progression. Using charts, providing a comprehensive view of member behaviors, health trends, and correlations between metrics like heart rate, session duration, and calories burned.
 
 ## Table of Contents
 - [Background](#background)
