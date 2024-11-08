@@ -98,7 +98,7 @@ The increase in both average heart rate and calorie burn implies that more exper
 The age trends indicate that workout duration remains consistent across age groups, while calories burned peaks in the 26-35 range and slightly decreases with age, indicating peak calories burned in early adulthood, which gradually declines with age (Query4_age_and_fitness_trends.pdf).
 
 ## Conclusion
-**Conclusion:** The Gym Members Exercise project successfully leverages advanced data visualization techniques to illustrate the relationship between age, gender, and experience level in fitness performance. Findings indicate peak calorie expenditure in early adulthood, which gradually declines with age, while more experienced members achieve higher calorie burns through increased workout intensity. These insights reveal patterns that can inform tailored fitness strategies for different demographics, enhancing member engagement and health outcomes.
+**Conclusion:** This project successfully leverages data visualization techniques to illustrate the relationship between age, gender, and experience level in fitness performance. Findings indicate peak calorie expenditure in early adulthood, which gradually declines with age, while more experienced members achieve higher calorie burns through increased workout intensity. These insights reveal patterns that can inform tailored fitness strategies for different demographics, enhancing member engagement and health outcomes.
 
 ## Attribution
 **Attribution:** Credits to Kala Khorasami for the Kaggle sample dataset.
